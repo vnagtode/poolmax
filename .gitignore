@@ -1,0 +1,27 @@
+
+
+# User-specific files
+*.user
+.project
+.settings
+.classpath
+
+# java
+*.class
+
+# Package Files #
+*.jar
+*.war
+*.ear
+
+
+# maven
+target/
+logs/
+
+# User-specific stuff
+.idea/**/workspace.xml
+.idea/**/tasks.xml
+.idea/**/usage.statistics.xml
+.idea/**/dictionaries
+.idea/**/shelf
