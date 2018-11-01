@@ -6,11 +6,13 @@ import org.joda.time.DateTime
 import com.poolmax.navigator.common._
 
 
-val geo1 = Geo(countryId = 5, regionId = 6, metroCodeId = 3, cityId = 1, zip3Id = "4", areaCodeId = 10)
-
+val sourceGeo = Geo(countryId = 5, regionId = 6, metroCodeId = 3, cityId = 1, zip3Id = "4", areaCodeId = 10)
+val destGeo = Geo(countryId = 6, regionId = 7, metroCodeId = 8, cityId = 9, zip3Id = "4", areaCodeId = 10)
 val dateNow = DateTime.now()
 
-val tp: TripReqParams = new TripReqParams("aa", geo1,
+val tp: TripReqParams = new TripReqParams("aa",
+  sourceGeo,
+  destGeo,
                                           tripReqReceivedDateTime = dateNow,
                                           customerId = "aa11",
                                           payloadType = PayloadType.Student,
