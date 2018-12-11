@@ -3,6 +3,7 @@ package com.poolmax.navigator.common
 import org.joda.time.DateTime
 
 
+
 object PayloadType extends Enumeration{
   val Student, Adult, Food, Groceries, Shipments = Value
 }

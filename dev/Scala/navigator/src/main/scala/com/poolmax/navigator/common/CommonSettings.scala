@@ -12,6 +12,7 @@ object CommonSettings {
     val geoPricing = Map( "geo" -> "Default",
                           "dollerPerMile" -> "1.25",
                           "centsPerMinute" -> "19"
+
     )
     geoPricing
   }
